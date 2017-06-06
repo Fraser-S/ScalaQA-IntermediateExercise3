@@ -12,8 +12,8 @@ object Main {
   def main(args : Array[String]) : Unit = {
     val summer : Boolean = true
     val notSummer : Boolean = false
-    println("input(80,false) -> " + tooHot(80, notSummer))
-    println("input(100,false) -> " + tooHot(100, notSummer))
-    println("input(100,false) -> " + tooHot(100, summer))
+    println("Input(80,false) -> " + tooHot(80, notSummer))
+    println("Input(100,false) -> " + tooHot(100, notSummer))
+    println("Input(100,false) -> " + tooHot(100, summer))
   }
 }
